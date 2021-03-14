@@ -27,9 +27,9 @@ Pour lancer le script, écrire dans le temrinal:
 Suivi de l'argument de votre choix: ```"list"```, ```"upload"``` + le chemin du fichier à envoyer dans le container, ```"download"``` + le nom du fichier à télécharger sur le container.
 
 Changer le comportement par défaut:  
-Le programme se lance par défaut en appelant le fichier config.ini pour se relier au container Azure Blob Storage. Si vous souhaitez utiliser un autre fichier que le fichier par défaut, utilisez l'argument ```-cfg``` en écrivant dans le terminal:  
+-Le programme se lance par défaut en appelant le fichier config.ini pour se relier au container Azure Blob Storage. Si vous souhaitez utiliser un autre fichier que le fichier par défaut, utilisez l'argument ```-cfg``` en écrivant dans le terminal:  
 ```python main.py -cfg autreconfig.ini``` + l'argument demandé  
-Le programme se lance par défaut avec un niveau de logging "info". Si vous souhaiter changer le niveau de logging, utilisez l'argument ```-lvl``` suivi du niveau souhaité (info, debug, warning, error, critical):   
+-Le programme se lance par défaut avec un niveau de logging "info". Si vous souhaiter changer le niveau de logging, utilisez l'argument ```-lvl``` suivi du niveau souhaité (info, debug, warning, error, critical):   
 ```python main.py -lvl debug``` + l'argument demandé  
 
 
