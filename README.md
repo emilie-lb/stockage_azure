@@ -1,4 +1,4 @@
-# stockage_azure
+# Stockage_azure
 Un script main.py est un script python permettant de:  
 * lister les fichiers d'un conteneur Azure Blob Storage, 
 * envoyer un fichier dans un container Azure Blob Storage
@@ -6,7 +6,7 @@ Un script main.py est un script python permettant de:
 
 *remarque: Pour utiliser ce script vous devez avoir un compte Azure, créer un compte de stockage et un container.* 
 
-## remplir le fichier config.ini: 
+## Remplir le fichier config.ini: 
 Le fichier config.ini contient vos informations personnelles (vos noms de compte de stockage et de container, la clé d'identification...)  
 *remarque: dans le fichier config, les informations sont écrites sans guillemets.*  
 
@@ -20,7 +20,7 @@ key=....................................==   (=> Ici, mettre la clé 1 de votre 
 ```
 
 
-## fonctionnement du sript main.py: 
+## Fonctionnement du sript main.py: 
 Le script python main.py se lance par l'intermédiaire d'arguments entrés directement en la ligne de commande.  
 Pour lancer le script, écrire dans le temrinal:  
 ```python main.py```  
